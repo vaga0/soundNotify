@@ -43,3 +43,24 @@ go run main.go
 
 於瀏覽器輸入 ```http://localhost:8080``` 即可觸發播放音樂
 播放過程可於 cli 介面輸入 q + enter 中斷
+
+## 打包
+
+若你需要打包成執行黨，需自行將
+```
+// go run:
+f, err := os.Open("sound.mp3")
+// go build 可用下列
+// exePath, _ := os.Executable()
+// f, err := os.Open(filepath.Join(filepath.Dir(exePath), "sound.mp3"))
+```
+修改為
+```
+// go run:
+// f, err := os.Open("sound.mp3")
+// go build 可用下列
+exePath, _ := os.Executable()
+f, err := os.Open(filepath.Join(filepath.Dir(exePath), "sound.mp3"))
+```
+
+這部分不是什麼大問題，懶得寫完善了
