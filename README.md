@@ -14,9 +14,9 @@ Listen 8080 port 當被呼叫時播放音樂
 
 ## 事前準備
 
-事先安裝好 go
+事先安裝好 go [Download and install](https://go.dev/doc/install)
 
-準備好一個 sound.mp3 檔案置於 git 根目錄
+[Optional] 準備好一個 sound.mp3 檔案置於 git 根目錄
 
 ## Install
 
