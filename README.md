@@ -68,4 +68,4 @@ f, err := os.Open(filepath.Join(filepath.Dir(exePath), "sound.mp3"))
 
 ## 情境: 解決瀏覽器自動更新時無法發出音效之限制
 
-我在另一個專案 [vaga0/kktix-ticket-checker](https://github.com/vaga0/kktix-ticket-checker)) 利用到了這裡的功能
+我在另一個專案 [vaga0/kktix-ticket-checker](https://github.com/vaga0/kktix-ticket-checker) 利用到了這裡的功能
